@@ -1,23 +1,21 @@
 # Hi, I'm Ray 👋
 
-I'm an **AI-native builder**. I use AI every day to design, build and test, and I put it where it earns its place: models handle language, judgement and drafting, while ordinary code, tests and evals handle everything that has to be right. I ship things that run, and I measure them instead of guessing.
+**I'm AI-native: I build with AI every day, and I'm careful about where it goes.** Models do what they're good at (reading, judging, drafting). Plain, tested code owns the rules, the state and the money. Then I measure whether it actually works.
 
-## What I build
+## Things I've built
 
-- **[jiang-hu-game](https://github.com/Rayjiao123/jiang-hu-game)**: a live wuxia survival game in English, 中文 and ไทย. AI voices the characters, the server owns the rules and secrets, and a second model scores the first. It has offline tests, live evals and a balance simulation, and it is deployed on a public URL.
-- **[WeatherAgents](https://github.com/Rayjiao123/WeatherAgents)**: a paper-trading research system for Polymarket temperature markets. Forecasts never see prices, and a trading rule only moves forward after passing a test written down in advance.
-- **[forecast_prophet](https://github.com/Rayjiao123/forecast_prophet)**: store-level sales forecasting with Facebook Prophet, validated on a held-out final quarter.
+| Project | What it is |
+|---|---|
+| 🎮 [**jiang-hu-game**](https://github.com/Rayjiao123/jiang-hu-game) | A live wuxia survival game in English, 中文 and ไทย. AI voices the characters, the server decides the outcomes, and a second model scores the first. Tests, live evals, deployed. |
+| 🏀 [**nba-opinion-lab**](https://github.com/Rayjiao123/nba-opinion-lab) | Can fans, bloggers and Reddit beat NBA prop betting prices? A paper-trading experiment where an LLM reads opinions and never predicts, and the rules are written down before the data exists. |
+| 🌡️ [**WeatherAgents**](https://github.com/Rayjiao123/WeatherAgents) | Forecasts daily temperatures and paper-trades Polymarket's markets. The forecast never sees prices, and a rule only moves forward after passing a test written in advance. |
+| 📈 [**forecast_prophet**](https://github.com/Rayjiao123/forecast_prophet) | Store-level sales forecasting with Prophet, validated on a held-out final quarter. |
 
-## How I work
+## How I work with AI
 
-- Write down how a result will be judged **before** running the experiment.
-- Keep the model on language and judgement; keep money, rules and state in tested code.
-- Test with a fake model offline, then evaluate against the real one.
-- Ship it somewhere real, then read the results honestly, including the bad ones.
+- **Split the job.** Language and judgement go to the model. Rules, state and money go to code with tests.
+- **Check the model.** Validate every output, add a second model as judge, run evals.
+- **Decide how to judge before running.** Write the test first, then look at the result.
+- **Ship it, then read the results honestly,** including the bad ones.
 
-## Tools
-
-Python · FastAPI · JavaScript · SQL · Prophet · LLM APIs and evals · Claude Code
-
----
-Open to conversations about AI engineering and applied AI roles.
+Python · FastAPI · JavaScript · SQL · LLM APIs and evals · Claude Code
