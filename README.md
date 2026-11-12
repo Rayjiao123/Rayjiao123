@@ -9,7 +9,6 @@
 | 🎮 [**jiang-hu-game**](https://github.com/Rayjiao123/jiang-hu-game) | A live wuxia survival game in English, 中文 and ไทย. AI voices the characters, the server decides the outcomes, and a second model scores the first. Tests, live evals, deployed. |
 | 🏀 [**nba-opinion-lab**](https://github.com/Rayjiao123/nba-opinion-lab) | Can fans, bloggers and Reddit beat NBA prop betting prices? A paper-trading experiment where an LLM reads opinions and never predicts, and the rules are written down before the data exists. |
 | 🌡️ [**WeatherAgents**](https://github.com/Rayjiao123/WeatherAgents) | Forecasts daily temperatures and paper-trades Polymarket's markets. The forecast never sees prices, and a rule only moves forward after passing a test written in advance. |
-| 📈 [**forecast_prophet**](https://github.com/Rayjiao123/forecast_prophet) | Store-level sales forecasting with Prophet, validated on a held-out final quarter. |
 
 ## How I work with AI
 
